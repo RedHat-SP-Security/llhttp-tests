@@ -10,6 +10,7 @@ recommend:
 tag:
   - CI-Tier-1
   - Tier1
+  - ImageMode
 tier: '1'
 duration: 10m
 enabled: true

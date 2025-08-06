@@ -1,12 +1,13 @@
 summary: Upstream test suite wrapper.
-description: Testing upstream test suite against distributed package in OS system.
+description: Testing upstream test suite against distributed package in OS 
+    system.
 contact: Patrik Koncity <pkoncity@redhat.com>
 test: ./runtest.sh
 recommend:
-- llhttp
-- npm
-- clang
-- dnf-plugins-core
+  - llhttp
+  - npm
+  - clang
+  - dnf-plugins-core
 tag:
   - CI-Tier-1
   - Tier1
@@ -14,3 +15,4 @@ tag:
 tier: '1'
 duration: 10m
 enabled: true
+id: 44e46729-970e-4359-8e14-89ef0851647e
